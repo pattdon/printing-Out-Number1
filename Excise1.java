@@ -16,15 +16,15 @@ import java.util.LinkedList;
 
 public class Excise1 {
 
-       public static void main(String[] args) {
-           printOut(1000);
+       public static void main(String[] args) {// print nonegative n
+           printOut(-999);
        }
 
       public static void printOut(int n){
-          if(n >= 10){
-              printOut(n/10);
-          }
-          System.out.println(n % 10);
+        char[] digits = Integer.toString(n).toCharArray();
+        for (int i = 0; i < digits.length; i++) {
+        System.out.println("digit: " + digits[i]);
+    }
       } 
  }
     
@@ -33,6 +33,9 @@ public class Excise1 {
 
 
   
+
+
+
 
 
 
