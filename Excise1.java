@@ -17,7 +17,7 @@ import java.util.LinkedList;
 public class Excise1 {
 
        public static void main(String[] args) {
-           printOut(-1000);
+           printOut(1000);
        }
 
       public static void printOut(int n){
